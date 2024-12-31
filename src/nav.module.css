@@ -1,0 +1,37 @@
+.nav {
+  background-color: #22393f;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  font-size: 24px;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  font-weight: bold;
+  &:hover {
+    color: green;
+  }
+}
+
+.cartimg {
+  height: 48px;
+  margin-right: 20px;
+}
+
+.cartconcontainer {
+  position: relative;
+  cursor: pointer;
+}
+
+.cartcount {
+  background: yellow;
+  border-radius: 50%;
+  padding: 4px 8px;
+  position: absolute;
+  right: 10px;
+  top: -5px;
+  font-size: 12px;
+  /* visibility: ${(props) => (props.show ? "visible" : "hidden")}; */
+}
